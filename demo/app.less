@@ -1,0 +1,41 @@
+// app.less
+
+//colors
+@orange:#c14b06;
+@black:#0e0e0e;
+@gray:#1d1d1d;
+
+body{ font-size:14px; font-family:Arial, Helvetica, sans-serif; letter-spacing:0.05em;}
+a, a:hover{
+  text-decoration:none;
+}
+nav.menu{
+  width:320px; display:block; position:relative;
+  ul{
+    display:block; list-style:none; padding:0; margin:0;
+    >li{
+      display:block; list-style:none; padding:0; margin:0; position:relative; background-color:@black;
+      a{
+        padding:15px 10px; margin:0; line-height:1;  color:@orange; display:block; border-bottom:1px solid @gray;
+      }
+      >ul{
+        display:none; position:absolute; left:100%; width:100%; top:0;
+      }
+      &:hover{
+        background-color:#121111;
+        >ul{
+          display:block;
+        }
+        >a{
+          color:#eddec3;
+        }
+      }
+      &.has-child{
+        background-image:url('arrow.jpg'); background-repeat:no-repeat; background-position:center right 15px; background-size:auto;
+        &:hover{
+          background-image:url('arrow-hover.jpg');
+        }
+      }
+    }
+  }
+}
