@@ -4,7 +4,7 @@ menubuilder.js
 A very small and lightweight javascript plugin for creating nested navigation menus from json objects.
 
 #Usage
-Create menus using the menuBuilder object. You can add a menu object to cache by using <pre>menuBuilder.addMenu(array, 'name')</pre>. Menus can be created using <pre>menuBuilder.createMenu(domNode, (menu array or menu cache 'name'))</pre>
+Create menus using the menuBuilder object. You can add a menu object to cache by using `menuBuilder.addMenu(array, 'name')`. Menus can be created using `menuBuilder.createMenu(domNode, (menu array or menu cache 'name'))`
 
 ####Methods
 name | description
