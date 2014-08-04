@@ -5,12 +5,10 @@ A very small and lightweight javascript plugin for creating nested navigation me
 
 #Usage
 You can add a menu object to cache by using:
-
 `menuBuilder.addMenu(array, 'name')`
 
 
 Menus can be created using:
-
 `menuBuilder.createMenu(domNode, (menu array or menu cache 'name'))`
 
 ####Methods
